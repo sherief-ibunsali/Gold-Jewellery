@@ -1,0 +1,98 @@
+/* Container styles */
+.offerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 30px; /* Spacing between the cards */
+  padding: 0px 20px;
+}
+
+/* Offer Card styles */
+.offerCard {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  padding: 20px;
+  text-align: left;
+}
+
+.offerCard:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+/* Image styles */
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.offerCard:hover .cardImage {
+  transform: scale(1.05);
+}
+
+/* Title and text styling */
+.goldName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  /* margin-top: 15px; */
+  }
+  
+  .goldType {
+    font-size: 16px;
+    text-align: left;
+  color: #777;
+  margin-top: -6px;
+}
+
+.price {
+  font-size: 16px;
+  color: #ff4500;
+  margin-top: -6px;
+  text-align: left;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.offerHead{
+  color: #832721;
+  margin: 0;
+}
+.offerHeadPara{
+  color: #333;
+  text-align: center;
+  /* margin-top: -2px; */
+}
+.offerHead{
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .offerContainer {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .offerContainer {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .offerContainer {
+    grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+}

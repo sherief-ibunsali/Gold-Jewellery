@@ -1,0 +1,70 @@
+/* Main gallery container */
+.galleryContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide into two equal halves */
+    gap: 20px; /* Space between big and small containers */
+  }
+  
+  /* Big image container */
+  .bigContainer {
+    position: relative;
+    overflow: hidden; /* Ensure hover effects stay within bounds */
+    border-radius: 15px;
+  }
+  
+  .bigContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures consistent aspect ratio */
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bigContainer img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Small images container */
+  .smallContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two small images per row */
+    grid-template-rows: repeat(2, 1fr); /* Two rows of images */
+    gap: 20px; /* Space between images */
+  }
+  
+  .smallContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .smallContainer img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+.galleryTxt{
+  text-align: center;
+  margin-top: -10px;
+}
+  .galleryHead{
+    text-align: center;
+    color: #832721;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .galleryContainer {
+      grid-template-columns: 1fr; 
+    }
+  
+    .smallContainer {
+      grid-template-columns: 1fr; 
+    }
+  }
+  

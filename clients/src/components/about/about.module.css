@@ -1,0 +1,98 @@
+.aboutUs {
+    font-family: "Lora", serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f8f6f4;
+  }
+  
+  .heroSection {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .aboutHead{
+    text-align: center;
+    /* margin-bottom: -10px; */
+    margin: 30px 0;
+    color: #a54201;
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .heroSection h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #d4af37;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .story,
+  .values,
+  .services,
+  .contact {
+    margin: 40px 0;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #a17a58;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .aboutTxt {
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
+    line-height: 1.8;
+  }
+  
+  ul li strong {
+    color: #d4af37;
+  }
+  
+  .contact p {
+    color: #363636;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  @media (min-width: 768px) {
+    .story,
+    .values,
+    .services,
+    .contact {
+      text-align: left;
+    }
+  
+    ul li {
+      text-align: left;
+    }
+  }
+  

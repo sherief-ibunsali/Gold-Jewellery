@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Mini Charm Hoop Earrings",
+    "image": "https://auriane.jwsuperthemes.com/wp-content/uploads/2022/03/Rectangle-5111-500x500.jpg",
+    "type": "8ct Gold Plated Vermeil",
+    "price": 135
+  },
+  {
+    "id": 2,
+    "name": "Kyle Chain Ring",
+    "image": "https://auriane.jwsuperthemes.com/wp-content/uploads/2022/01/14310066-gp-rg-dn10-non-f1-1024x1024.jpg",
+    "type": "8ct Gold Plated Vermeil",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "name": "Diamond Medallion Necklace",
+    "image": "https://auriane.jwsuperthemes.com/wp-content/uploads/2022/03/diamond_1E.jpg",
+    "type": "White Gold",
+    "price": 420
+  },
+  {
+    "id": 4,
+    "name": "Shell and Pearl Necklace Set",
+    "image": "https://auriane.jwsuperthemes.com/wp-content/uploads/2022/01/12428686-alta-11-1--1024x1024.png",
+    "type": "8ct Gold Plated Vermeil",
+    "price": 290
+  },
+  {
+    "id": 5,
+    "name": "Mitchi Hoop Earrings",
+    "image": "https://auriane.jwsuperthemes.com/wp-content/uploads/2022/04/baya-hoop-earrings-earrings-missoma-18ct-gold-plated-930264-1-500x500.jpg",
+    "type": "Yellow Gold",
+    "price": 125
+  },
+  {
+    "id": 6,
+    "name": "Medina Round Ring",
+    "image": "https://auriane.jwsuperthemes.com/wp-content/uploads/2022/03/rinmediran-1.png",
+    "type": "8ct Gold Plated Vermeil",
+    "price": 165
+  }
+]

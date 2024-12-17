@@ -1,0 +1,134 @@
+/* Main container */
+.homeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: #f1e0d1;
+    padding: 20px;
+  }
+  
+  /* Text section */
+  .homeText {
+    max-width: 50%;
+    padding: 25px 40px;
+    margin-top: -70px;
+  }
+  
+  /* First line of text */
+  .homeText .txtOne {
+    font-size: 3rem; /* Increased font size for better visibility */
+    font-weight: 700;
+    line-height: 1.3;
+    color: #832721;
+  }
+  
+  /* Second line of text */
+  .homeText .txtTwo {
+    font-size: 1.2rem;
+    color: #363636;
+    margin-top: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Button styles */
+  .expBtn {
+    padding: 12px 50px;
+    margin-top: 25px;
+    background-color: #832721;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .expBtn:hover {
+    background-color: #fff;
+    color: #832721;
+    transform: scale(1.05);
+  }
+  
+  /* Image container */
+  .imgContainer {
+    max-width: 50%;
+  }
+  
+  .imgContainer img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .imgContainer img:hover {
+    transform: scale(1.05);
+  }
+
+  @media (max-width:750px){
+    .txtOne{
+        font-size: 2.5rem;
+    }
+  }
+  
+  /* Mobile responsive styles */
+  @media (max-width: 730px) {
+    .homeContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Text section adjustments */
+    .homeText {
+      text-align: center;
+      max-width: 80%;
+      margin-top: 20px;
+    }
+  
+    /* Adjust text sizes for mobile */
+    .homeText .txtOne {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .homeText .txtTwo {
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    /* Adjust button size for mobile */
+    .expBtn {
+      font-size: 16px;
+      padding: 10px 30px;
+    }
+  
+    /* Image adjustments for mobile */
+    .imgContainer img {
+      height: auto;
+      max-height: 50vh;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .homeText .txtOne {
+      font-size: 1.5rem;
+    }
+  
+    .homeText .txtTwo {
+      font-size: 0.9rem;
+    }
+  
+    .expBtn {
+      font-size: 14px;
+      padding: 10px 25px;
+    }
+  }
+  

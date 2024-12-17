@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Birthday",
+    "image": "https://static.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/06_June/homepage/gifting-block/Birthday.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Anniversary",
+    "image": "https://static.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/06_June/homepage/gifting-block/anniversary.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Baby Birth",
+    "image": "https://static.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/06_June/homepage/gifting-block/baby-birth.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Festive",
+    "image": "https://static.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/06_June/homepage/gifting-block/festive.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Personalized",
+    "image": "https://static.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/06_June/homepage/gifting-block/Personalized.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Customized",
+    "image": "https://static.malabargoldanddiamonds.com/media/wysiwyg/offer_page/2023/06_June/homepage/gifting-block/Customized.jpg"
+  }
+]
